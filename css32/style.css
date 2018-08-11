@@ -1,0 +1,112 @@
+body {
+  margin:0;
+  background-color: #EEEEEE
+}
+
+/* header */
+
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.header-logo {
+  color: #fff;
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.header-list ul {
+  margin: 0;
+}
+
+.header-list li {
+  list-style: none;
+  float: left;
+  padding: 33px 20px;
+}
+
+.header-list a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-list a:hover {
+  color: red;
+}
+
+
+/* main */
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(../img/IMG_1190.JPG);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+
+.sub-title h2 {
+  margin-left: 10px;
+  border-left: 10px solid #4689FF;
+  border-bottom: 1px solid #4689FF;
+}
+
+.main-container p {
+    margin-left: 20px;
+}
+
+.travel h3 {
+  border-left: 10px solid #4689FF;
+  border-bottom: 1px solid #4689FF;
+  margin-left: 10px;
+}
+
+.photo {
+  text-align: center;
+}
+
+.photo img {
+  width:450px;
+  height: 350px;
+  display: inline-block;
+}
+
+.btn {
+  padding: 8px 24px;
+  margin-left: 20px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-wrapper a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-wrapper a:hover {
+  opacity: 0.5;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.hatenablog {
+  background-color: #CCCCCC;
+}
+
+footer p {
+  font-size: 14px;
+  color: #DDDDDD;
+}
